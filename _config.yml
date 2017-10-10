@@ -1,0 +1,41 @@
+### your site title here
+
+title: ChangJoo Park
+baseurl:  # name of the repository
+email: pcjpcj2@gmail.com
+
+
+
+highlighter: rouge
+markdown: kramdown
+### exclude the instructions / write-up in the README.md
+
+
+# Tracker
+analytics: UA-86296460-1
+
+# Comments
+disqus-shortname: changjoopark
+
+
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+  
+
+sass:
+ style: compressed
+
+exclude:
+- README.md
+
+
+gems: [jekyll-seo-tag, jekyll-paginate]
